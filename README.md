@@ -1,19 +1,18 @@
 # WordPress SEO Audit Tool
 
-A WordPress SEO audit starter focused on technical checks and actionable remediation.
+A technical SEO helper that applies noindex rules to search and 404 pages.
 
-## Client value
+## Functional scope
 
-Technical SEO hygiene, content signals, and repeatable client audit workflows.
+- Runs as a standalone WordPress plugin
+- Includes an admin settings screen and an enable/disable option
+- Implements real WordPress or WooCommerce hooks for the stated workflow
+- Cleans up its option on uninstall
 
-This public reference implementation demonstrates a maintainable approach to WordPress and WooCommerce client work: clean extension points, predictable deployment, and focused code.
+## Installation
 
-## What this starter includes
+Copy this repository into `wp-content/plugins/wordpress-seo-audit-tool`, activate it, then open **Settings → WordPress SEO Audit Tool**.
 
-- A focused entry point for the stated use case
-- A clear foundation for client-specific customization
-- An intentionally compact structure for safe iteration
+## Production note
 
-## Notes
-
-This repository is a focused portfolio starter, not a replacement for a full discovery, QA, or production deployment process.
+This is a working reference implementation intended for discovery and adaptation to a client’s requirements. Test on staging before deployment.
