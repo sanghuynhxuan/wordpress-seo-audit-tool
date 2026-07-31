@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\WordpressSeoAuditTool;
 if (! defined('ABSPATH')) { exit; }
-final class WordpressSeoAuditToolFeature {
+final class Feature {
     private const OPTION = 'wordpress_seo_audit_tool_enabled';
     private const SLUG = 'wordpress-seo-audit-tool';
     private const TITLE = 'WordPress SEO Audit Tool';
